@@ -5,13 +5,19 @@ html {
 }
 
 body {
-    background-color: rgb(14, 14, 14);
-    color: white;
+    background-color: rgb(19, 19, 19);
+    color: rgb(31, 253, 31);
+    line-height: 32px;
+}
+
+/* This wil set the font weight for <p>, <li> and <td> elements in one css rule */
+p, li, td {
+    font-weight: 300;
 }
 
 a {
     text-decoration: none;
-    color: rgb(0, 194, 194);
+    color: rgb(154, 255, 175);
 }
 
 a:hover {
@@ -22,11 +28,12 @@ a:hover {
 h1 {
     text-align: center;
     font-size: 3em;
-    text-shadow: 0px 5px 15px rgb(0, 194, 194);
+    text-shadow: 5px 5px 10px rgb(31, 253, 31, 0.7);
 }
 
 h2 {
     text-transform: uppercase;
+    font-size: 1.5em;
 }
 
 /* Tools heading */
@@ -37,5 +44,10 @@ h2 {
 /* For all table head elements */
 .table-heads {
     font-size: 1.3rem;
-    text-decoration: underline white;
+    text-decoration: dotted underline rgb(255, 255, 255);
+}
+
+/* This will set contact info in the top to center */
+.contact {
+    text-align: center;
 }
