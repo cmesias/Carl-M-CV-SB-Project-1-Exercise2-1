@@ -41,7 +41,7 @@ h2 {
 
 /* For all table head elements */
 /* Sets font size to be 1.3 times html's font size */
-.table-heads {
+th {
     font-size: 1.2rem;
     text-decoration: dotted underline rgb(255, 255, 255);
 }

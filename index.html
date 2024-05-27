@@ -72,11 +72,9 @@
         <table>
           <!-- Table Head -->
           <thead>
-            <tr class="table-heads">
-              <th>Tool</th>
-              <th>Description</th>
-              <th>Proficiency</th>
-            </tr>
+            <th>Tool</th>
+            <th>Description</th>
+            <th>Proficiency</th>
           </thead>
           <!-- Table Body -->
           <tbody>
@@ -240,9 +238,13 @@
 
           <!-- Clear text Button-->
           <!-- We have to specify the type of button, otherwise it would be type ="submit" which would refresh the page instead of clearing the textarea -->
-          <button type="button" onclick="document.getElementById( 
-            'msg').value = ''">
+          <!-- onclick - Event listner -->
+          <button type="button" onclick="document.getElementById('msg').value = ''">
             Clear
+          </button>
+
+          <button type="reset">
+            Clear All
           </button>
 
           <!-- Submit Button -->
@@ -272,5 +274,11 @@
       <p>Learn more about my journey with <a href="https://www.springboard.com/workshops/software-development-career-program/learn#/dashboard">Springboard</a>.</p>
     </section>
     </footer>
+
+    <script>
+
+      let id = document.getElementByID("msg");
+
+    </script>
   </body>
 </html>
