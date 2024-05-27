@@ -1,5 +1,6 @@
 # Carl-M-CV-SB-Project-1-Exercise2-1
  This will add styles to my CV. I will replicate the example given.
+ 
  Live website: https://cmesias.github.io/Carl-M-CV-SB-Project-1-Exercise2-1/
 
 # Example
